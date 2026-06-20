@@ -1,0 +1,4 @@
+def count_vowels_list(strings):
+vowels='aeiouAEIOU'
+return [sum(1 for ch in s if chin vowels) for s in strings]
+print(count_vowels_list(["Raja","Ram","anu"]))
