@@ -1,0 +1,5 @@
+a="1011"
+decimal=0
+for bit in a:
+    decimal = decimal*2+ int(bit)
+    print(decimal)
