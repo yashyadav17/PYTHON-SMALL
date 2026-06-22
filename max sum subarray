@@ -1,0 +1,11 @@
+a=[9,8,-9,14,22,7,-25]
+b=7
+max_sum= float('-inf')
+max_sub=[]
+for i in range(0,len(a)-b+1,b):
+    current_sum=sum(a[i:i+b])
+    if current_sum>max_sum:
+        max_sum=current_sum
+        max_sub=a[i:i+b]
+        print(max_sum)
+        print(max_sub)
