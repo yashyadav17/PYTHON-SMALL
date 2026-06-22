@@ -1,0 +1,5 @@
+a=121
+original,rev=a,0
+rev=rev*10+a%10
+a//=10
+print(original==rev)
