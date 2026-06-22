@@ -1,0 +1,7 @@
+import math
+def lcm3(a,b,c):
+    return math.lcm(math.lcm(a,b),c)
+    print (lcm3(3,4,2,))
+    def lcm(x,y):
+        return x*y//math.gcd(x,y)
+        print(lcm(lcm(3, 4), 2))https://www.onlinegdb.com/online_c_compiler#editor_1
