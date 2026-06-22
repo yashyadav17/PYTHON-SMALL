@@ -1,0 +1,6 @@
+from collections import deque
+a=deque()
+a.append (100)
+a.append (200)
+a.append (300)
+print (a)
